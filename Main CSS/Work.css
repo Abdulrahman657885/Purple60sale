@@ -1,0 +1,161 @@
+/* Portfolio Banner Card Css Start */
+
+.banner_card {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 110px;
+    text-transform: uppercase;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    background-image: url(../Images/Banner\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner_card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9AC6C5;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.banner_card h1 {
+    letter-spacing: 5px;
+    font-size: 4.5rem;
+    margin-top: 50px;
+    margin-left: 300px;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.banner_card p {
+    word-spacing: 5px;
+    margin-left: 305px;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+/* Portfolio Banner Card Css End */
+
+/* Our Work CSS */
+
+.working_main_container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.work_category_view h3 {
+    margin-top: 20px;
+}
+
+.working_card_logos {
+    border-radius: 120px;
+    padding: 30px;
+    background-color: #A5E6BA;
+}
+
+/* Our Work CSS */
+
+/* Contact Us Portion Css Start */
+
+.contactus_portion {
+    background-color: #5B2A86;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.contactus_portion_card {
+    background-color: #5B2A86;
+    color: #fff6ed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contactus_portion_card h1 {
+    margin-top: 100px;
+}
+
+.home_contactus_btn {
+    background-color: #A5E6BA;
+    width: 150px;
+    margin: auto;
+    transition: background-color 1s all;
+}
+
+.home_contactus_btn:hover {
+    background-color: #9AC6C5;
+    color: #fff;
+    width: 150px;
+    margin: auto;
+}
+
+/* Contact Us Portion Css End*/
+
+/* Media Query */
+
+@media (max-width: 990px) {
+    .banner_card {
+        margin-top: 90px;
+    }
+
+    .banner_card h1 {
+        margin-left: 150px;
+    }
+
+    .banner_card p {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner_card h1 {
+        font-size: 4rem;
+        margin-left: 50px;
+    }
+
+    .banner_card p {
+        margin-left: 55px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 328px) {
+    .banner_card h1 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 307px) {
+    .banner_card h1 {
+        font-size: 3rem;
+        margin-left: 30px;
+    }
+
+    .banner_card p {
+        margin-left: 35px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 213px) {
+    .banner_card h1 {
+        font-size: 2.8rem;
+        margin-left: 10px;
+    }
+
+    .banner_card p {
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+}
+
+/* Media Query */

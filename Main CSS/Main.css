@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* hide scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Preloader CSS */
+.preloader-img {
+    width: 300px;
+}
+
+/* Navbar Css  */
+#main-nav {
+    background-color: #360568;
+    padding: 20px;
+}
+
+.logo_img {
+    width: 200px;
+}
+
+#Nav-list {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+    color: #fff6ed;
+    margin: 10px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #A5E6BA;
+}
+
+/* Navbar Css End */
+
+/* Footer Css Start */
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.footer_copyright_parag {
+    background-color: #360568;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Footer Css End */
+
+/* Scroll to top Btn */
+.scroll_to_top_btn {
+    background-color: #01b49c;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    bottom: 50px;
+    right: 50px;
+    color: #F7F9F9;
+    font-size: 30px;
+    display: none;
+    transition: background-color 0.5s ease-in, color 0.5s ease;
+}
+
+.scroll_to_top_btn:hover {
+    background-color: #8367c7;
+    color: #f0fff1;
+}
+
+p {
+    text-wrap: balance;
+}
+
+/* Scroll to top Btn */
+
+/* Media Query */
+
+@media (max-width: 400px) {
+    .logo_img {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .navbar-toggler {
+        margin: 15px auto;
+    }
+
+}
+
+@media (max-width: 307px) {
+
+    .footer_about_company_email,
+    .footer_about_company_contact {
+        font-size: 18px;
+    }
+
+    .scroll_to_top_btn {
+        height: 50px;
+        width: 50px;
+        right: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 278px) {
+    .footer_about_company_email {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 230px) {
+    .logo_img {
+        width: 170px;
+    }
+
+}
+
+/* Media Query */
